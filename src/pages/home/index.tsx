@@ -11,6 +11,7 @@ import galeria5 from '../../assets/images/galeria-5.png';
 import galeria6 from '../../assets/images/galeria-6.png';
 import galeria7 from '../../assets/images/galeria-7.png';
 import galeria8 from '../../assets/images/galeria-8.png';
+import additionalImage from '../../assets/images/banner2.png';
 
 import './index.scss';
 
@@ -69,6 +70,61 @@ export function Home() {
 
         </section>
 
+        <section className="section-information">
+          <aside className="aside-information">
+
+            <div className="arts-information">
+              <h1 className="information-title">10K+</h1>
+              <p className="information-paragraph">Artes</p>
+            </div>
+
+            <div className="sales-information">
+              <h1 className="information-title">200+</h1>
+              <p className="information-paragraph">Vendas</p>
+            </div>
+
+            <div className="artists-information">
+              <h1 className="information-title">10K+</h1>
+              <p className="information-paragraph">Artistas</p>
+            </div>
+          </aside>
+
+          <div className="additional-information">
+            <div className="additional-information-container">
+              <div className="additional-information-text">
+                <div className="first-text">
+                  <p className="informational-paragraph">
+                    Lorem ipsum dolor sit amet, consectetur <br />
+                    adipiscing elit. Congue malesuada amet  <br />
+                    pretium lacus. Id <span className="informational-span"> potenti diam </span>et cras odio <br />
+                    viverra. Amet, velit ut hac sit. Enim ultricies <br />
+                    mauris mattis nunc semper.
+                  </p>
+                  <p className="author">Lorem ipsum</p>
+                </div>
+
+                <div className="first-last">
+                  <p className="informational-paragraph">
+                    Lorem ipsum dolor sit amet, consectetur <br />
+                    adipiscing elit. Congue malesuada amet <br />
+                    pretium lacus. Id <span className="informational-span"> potenti diam </span> et cras odio <br />
+                    viverra. Amet, velit ut hac sit. Enim ultricies <br />
+                    mauris mattis nunc semper. <br />
+                  </p>
+                  <p className="author">Lorem ipsum</p>
+                </div>
+
+              </div>
+              <div className="additional-information-image">
+                <img src={additionalImage} alt="Imagem sobre o autor do texto" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="section-best-week">
+          <h1>Melhores da Semana</h1>
+        </section>
       </main>
     </body>
   )
