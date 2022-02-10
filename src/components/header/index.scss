@@ -1,10 +1,13 @@
 header {
-  width: 100%;
+  display: flex;
+  width: min(90vw, 1800px);
+  margin: auto;
+
   height: 50px;
-  margin-top: 57px;
-  background-color: var(--body-background);
 
   .header {
+    margin-top: 5.5rem;
+
     height: 100%;
     width: 100%;
     border-radius: 10px;

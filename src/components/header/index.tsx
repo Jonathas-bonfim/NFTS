@@ -26,6 +26,6 @@ export function Header() {
         </div>
 
       </section>
-    </header>
+    </header >
   )
 }
