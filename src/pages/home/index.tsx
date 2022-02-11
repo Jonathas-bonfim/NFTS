@@ -11,7 +11,21 @@ import galeria5 from '../../assets/images/galeria-5.png';
 import galeria6 from '../../assets/images/galeria-6.png';
 import galeria7 from '../../assets/images/galeria-7.png';
 import galeria8 from '../../assets/images/galeria-8.png';
+
 import additionalImage from '../../assets/images/banner2.png';
+import arrow from '../../assets/images/arrow-white.svg';
+
+import astronaut1 from '../../assets/images/astronauta 1.png';
+import astronaut2 from '../../assets/images/astronauta-2.png';
+import astronaut3 from '../../assets/images/astronauta-3.png';
+import astronaut4 from '../../assets/images/astronauta-4.png';
+
+import artist1 from '../../assets/images/artista-1.png';
+import artist2 from '../../assets/images/artista-2.png';
+import artist3 from '../../assets/images/artista-3.png';
+import artist4 from '../../assets/images/artista-4.png';
+import artist5 from '../../assets/images/artista-5.png';
+import artist6 from '../../assets/images/artista-6.png';
 
 import './index.scss';
 
@@ -126,14 +140,95 @@ export function Home() {
         </div>
       </section>
 
-      <section className="second-body">
+      <section className="section-popularesWeek">
         <div className="div-popular-week">
-          <h1> <span className="informational-span">Populares</span>  da Semana</h1>
+          <h1> <span className="informational-span">Populares</span> da Semana</h1>
         </div>
+
         <div className="populares">
-          <div className="autor-popular"></div>
+
+          <div className="author-popular separated-astronauts">
+
+            <div className="astronaut1 astronaut">
+              <div className="div-astronaut">
+                <h2 className="astronaut-title">Astronauta 1</h2>
+                <img className="arrow" src={arrow} alt="Símbolo para astronauta" />
+              </div>
+              <div className="astronaut-subtitle">
+                <h4 className="astronaut-name"> Jônathas Bonfim</h4>
+                <p className="astronaut-value">1.50 RKT</p>
+              </div>
+              <img src={astronaut1} alt="Imagem do Astronauta" className="astronaut-image" />
+            </div>
+
+            <hr />
+
+            <div className="astronaut2 astronaut">
+              <div className="div-astronaut">
+                <h2 className="astronaut-title">Astronauta 2</h2>
+                <img className="arrow" src={arrow} alt="Símbolo para astronauta" />
+              </div>
+              <div className="astronaut-subtitle">
+                <h4 className="astronaut-name"> Deisy Bonfim</h4>
+                <p className="astronaut-value">2.0 RKT</p>
+              </div>
+              <img src={astronaut2} alt="Imagem do Astronauta" className="astronaut-image" />
+            </div>
+
+          </div>
+
+          <div className="author-popular">
+
+            <div className="astronaut3 astronaut">
+              <div className="div-astronaut">
+                <h2 className="astronaut-title">Astronauta 3</h2>
+                <img className="arrow" src={arrow} alt="Símbolo para astronauta" />
+              </div>
+              <div className="astronaut-subtitle">
+                <h4 className="astronaut-name"> Enza &amp; Cecília</h4>
+                <p className="astronaut-value">3.75 RKT</p>
+              </div>
+              <img src={astronaut3} alt="Imagem do Astronauta" className="astronaut-image" />
+            </div>
+
+            <hr />
+
+
+            <div className="astronaut4 astronaut">
+              <div className="div-astronaut">
+                <h2 className="astronaut-title">Astronauta 4</h2>
+                <img className="arrow" src={arrow} alt="Símbolo para astronauta" />
+              </div>
+              <div className="astronaut-subtitle">
+                <h4 className="astronaut-name"> Lemão &amp; Cenir </h4>
+                <p className="astronaut-value">4.0 RKT</p>
+              </div>
+              <img src={astronaut4} alt="Imagem do Astronauta" className="astronaut-image" />
+            </div>
+
+          </div>
+
         </div>
       </section>
-    </body>
+
+      <section className="section-bestArtists">
+
+        <div className="bestArtists">
+          <h1 className="artist-title">Melhores <span>Artistas</span> </h1>
+        </div>
+
+        <div className="gallery-artists">
+          <div className="artistaaa">
+            <img src={artist1} alt="Artista" />
+            <div className="text">
+              <p>Jônathas Bonfim</p>
+              <p>80 Fotografias</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </body >
+
+
   )
 }

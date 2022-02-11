@@ -179,7 +179,7 @@ main {
   }
 }
 
-.second-body {
+.section-popularesWeek {
   margin-top: 5rem;
   background-color: var(--body-background);
 
@@ -201,7 +201,101 @@ main {
     }
   }
 
-  .populares{
-    
+  .populares {
+    .author-popular {
+      display: flex;
+      justify-content: space-between;
+
+      .astronaut {
+        max-height: 337px;
+        max-width: 377px;
+
+        display: inline-block;
+
+        margin-bottom: 2.5rem;
+      }
+
+      .author-popular {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        flex-direction: row;
+      }
+
+      .div-astronaut,
+      .astronaut-subtitle {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        margin-bottom: 2.5rem;
+      }
+
+      .astronaut-title {
+        font-size: 2rem;
+        font-weight: 100;
+      }
+
+      .arrow {
+        height: 25px;
+        width: 25px;
+      }
+
+      .astronaut-name {
+        font-weight: 100;
+        color: var(--subtitle-color);
+      }
+
+      .astronaut-value {
+        color: var(--color-logo);
+      }
+
+      .astronaut-image {
+        height: 200px;
+        width: 350px;
+      }
+      hr {
+        border: 1px solid var(--subtitle-color);
+      }
+    }
+  }
+}
+
+.section-bestArtists {
+  width: min(90vw, 1800px);
+  margin: 15rem auto 0 auto;
+
+  // .div-bestArtists {
+  // }
+
+  .bestArtists {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .artist-title {
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+
+    span {
+      color: var(--color-logo);
+    }
+  }
+
+  .gallery-artists {
+    display: inline-block;
+  }
+
+  .artistaaa {
+    display: flex;
+    flex-direction: row;
+
+    .text {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+    }
   }
 }
