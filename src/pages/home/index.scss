@@ -277,6 +277,7 @@ main {
     .artist-title {
       font-size: 2.5rem;
       font-weight: bold;
+      margin-bottom: 6rem;
     }
 
     span {
@@ -285,17 +286,43 @@ main {
   }
 
   .gallery-artists {
-    display: inline-block;
+    display: flex;
+    justify-content: space-around;
   }
 
-  .artistaaa {
-    display: flex;
+  .info-artist {
+    display: inline-flex;
     flex-direction: row;
+    align-items: center;
+
+    border-radius: 5px;
+    padding: 2rem;
+    margin-bottom: 6rem;
+    gap: 2rem;
+
+    height: 130px;
+    width: 350px;
+
+    background-color: var(--card-color);
 
     .text {
       display: flex;
       flex-direction: column;
-      align-items: flex-end;
+      align-items: flex-start;
+      justify-content: flex-start;
+
+      font-size: 18px;
+
+      .photographs {
+        margin-top: 0.5rem;
+        color: var(--color-logo);
+      }
     }
+  }
+  .featured-artist {
+    background-color: var(--color-logo);
+  }
+  .featured {
+    color: var(--text-color) !important;
   }
 }

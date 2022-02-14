@@ -218,14 +218,62 @@ export function Home() {
         </div>
 
         <div className="gallery-artists">
-          <div className="artistaaa">
+
+          <div className="info-artist">
             <img src={artist1} alt="Artista" />
             <div className="text">
               <p>Jônathas Bonfim</p>
-              <p>80 Fotografias</p>
+              <p className="photographs">80 Fotografias</p>
             </div>
           </div>
+
+          <div className="info-artist">
+            <img src={artist2} alt="Artista" />
+            <div className="text">
+              <p>Taís Araujo</p>
+              <p className="photographs">95 Fotografias</p>
+            </div>
+          </div>
+
+          <div className="info-artist">
+            <img src={artist3} alt="Artista" />
+            <div className="text">
+              <p>Welinton Tech</p>
+              <p className="photographs">50 Fotografias</p>
+            </div>
+          </div>
+
         </div>
+
+        <div className="gallery-artists">
+
+          <div className="info-artist">
+            <img src={artist4} alt="Artista" />
+            <div className="text">
+              <p>Tamires Santos</p>
+              <p className="photographs">43 Fotografias</p>
+            </div>
+          </div>
+
+          <div className="featured-artist info-artist">
+            <img src={artist5} alt="Artista" />
+            <div className="text">
+              <p>Deisy Bonfim</p>
+              <p className="featured photographs">99 Fotografias</p>
+            </div>
+          </div>
+
+          <div className="info-artist">
+            <img src={artist6} alt="Artista" />
+            <div className="text">
+              <p>Guilherme R.</p>
+              <p className="photographs">20 Fotografias</p>
+            </div>
+          </div>
+
+
+        </div>
+
       </section>
     </body >
 
