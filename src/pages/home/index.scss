@@ -196,6 +196,10 @@ main {
 
     font-weight: 700;
     font-size: 30px;
+
+    h1 {
+      color: var(--text-color);
+    }
     span {
       color: var(--color-logo);
     }
@@ -235,6 +239,7 @@ main {
       .astronaut-title {
         font-size: 2rem;
         font-weight: 100;
+        color: var(--text-color);
       }
 
       .arrow {
@@ -278,6 +283,7 @@ main {
       font-size: 2.5rem;
       font-weight: bold;
       margin-bottom: 6rem;
+      color: var(--text-color);
     }
 
     span {
@@ -297,7 +303,7 @@ main {
 
     border-radius: 5px;
     padding: 2rem;
-    margin-bottom: 6rem;
+
     gap: 2rem;
 
     height: 130px;
@@ -312,6 +318,7 @@ main {
       justify-content: flex-start;
 
       font-size: 18px;
+      color: var(--text-color);
 
       .photographs {
         margin-top: 0.5rem;
@@ -319,10 +326,30 @@ main {
       }
     }
   }
+
+  .margin-bottom {
+    margin-bottom: 6rem;
+  }
+
   .featured-artist {
     background-color: var(--color-logo);
   }
   .featured {
     color: var(--text-color) !important;
+  }
+
+  .div-all-artists {
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 2rem;
+
+    .all-artists {
+      font-weight: normal;
+      font-size: 1.3rem;
+      color: var(--text-color);
+    }
   }
 }

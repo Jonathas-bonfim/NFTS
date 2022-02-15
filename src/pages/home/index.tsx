@@ -27,7 +27,11 @@ import artist4 from '../../assets/images/artista-4.png';
 import artist5 from '../../assets/images/artista-5.png';
 import artist6 from '../../assets/images/artista-6.png';
 
+import arrowOrange from '../../assets/images/arrow-orange.svg';
+
+
 import './index.scss';
+import { Footer } from "../../components/footer";
 
 export function Home() {
   return (
@@ -217,7 +221,7 @@ export function Home() {
           <h1 className="artist-title">Melhores <span>Artistas</span> </h1>
         </div>
 
-        <div className="gallery-artists">
+        <div className="gallery-artists margin-bottom">
 
           <div className="info-artist">
             <img src={artist1} alt="Artista" />
@@ -274,7 +278,15 @@ export function Home() {
 
         </div>
 
+        <div className="div-all-artists">
+          <h4 className="all-artists">Ver todos os Artistas</h4>
+          <img src={arrowOrange} alt="Seta vermelha" />
+        </div>
+
       </section>
+
+      <Footer />
+
     </body >
 
 
