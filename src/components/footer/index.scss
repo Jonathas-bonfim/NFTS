@@ -1,7 +1,8 @@
 footer {
   margin-top: 15rem;
 
-  height: 710px;
+  // height: 710px;
+  height: auto;
   width: 100%;
 
   background-color: var(--card-color);
@@ -9,6 +10,15 @@ footer {
   .footer-container {
     width: min(90vw, 1800px);
     margin: auto;
+
+    .hr-width {
+      width: 99.1vw;
+      display: flex;
+      overflow-x: auto;
+      position: absolute;
+      right: 0;
+      left: 0;
+    }
   }
 
   .title {
@@ -37,14 +47,20 @@ footer {
     }
   }
 
+  .middle {
+    display: flex;
+  }
+
   .middle-left {
-    min-height: 200px;
+    min-height: 350px;
     width: 500px;
 
     display: flex;
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
+    flex-wrap: wrap;
+    overflow-x: hidden;
 
     .middleLeft-text {
       min-height: 80px;
@@ -79,7 +95,6 @@ footer {
     input {
       height: 100%;
       width: 100%;
-      // padding: 0.5rem;
 
       border: none;
       background: var(--color-input);
@@ -95,11 +110,70 @@ footer {
       height: 66px;
       width: 135px;
 
+      cursor: pointer;
       background: var(--text-color);
       color: var(--black-text);
 
       font-weight: bold;
       font-size: 1.5rem;
+    }
+  }
+
+  .middle-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 250px;
+    margin-left: 122px;
+
+    .information-styled {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      flex-direction: column;
+
+      gap: 0.5rem;
+
+      p {
+        color: var(--text-color);
+        font-size: 2rem;
+      }
+
+      a {
+        color: var(--subtitle-color);
+        text-decoration: none;
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  .end-footer {
+    height: 20rem;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .social-media {
+      display: inline-flex;
+      a {
+        font-size: 1.5rem;
+        color: var(--subtitle-color);
+      }
+    }
+
+    .icons {
+      cursor: pointer;
+
+      display: flex;
+      gap: 50px;
+
+      img {
+        height: 35px;
+        width: 35px;
+      }
     }
   }
 }
