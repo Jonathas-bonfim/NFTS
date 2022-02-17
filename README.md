@@ -12,6 +12,6 @@
 > #### Link do website: <https://jonathasnfts.netlify.app//>
 
 ## Page
-![nfts](https://user-images.githubusercontent.com/58302084/153866747-5410dcb4-a395-48fe-bd58-7acbec57f1c5.gif)
+![nfts](https://user-images.githubusercontent.com/58302084/154385670-4c2f9b8f-9bca-4e15-8af2-c6e04149fbd5.gif)
 <br/>
 
