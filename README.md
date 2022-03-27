@@ -3,7 +3,7 @@
 #### O site foi um desafio proposto pela Rocketseat na trilha Discover, com o objetivo de treinar HTML e CSS.
  
    > ** Dependências: ** <br/>
-    `yarn` ou `npm install`
+    `yarn`
     <br/>
     <br/>
 
