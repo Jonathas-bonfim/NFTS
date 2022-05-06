@@ -9,7 +9,7 @@
 
 > A hospedagem foi feita no Netlify<br/>
   
-> #### Link do website: <https://jonathasnfts.netlify.app//>
+> #### Link do website: <https://jonathasnfts.netlify.app/>
 
 ## Page
 ![nfts](https://user-images.githubusercontent.com/58302084/154385670-4c2f9b8f-9bca-4e15-8af2-c6e04149fbd5.gif)
